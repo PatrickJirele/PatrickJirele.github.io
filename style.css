@@ -1,0 +1,96 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Set background color */
+    color: #333; /* Set text color */
+  }
+  
+  .container {
+    max-width: 1200px; /* Set maximum width for content */
+    margin: 0 auto; /* Center content horizontally */
+    padding: 0 20px; /* Add some padding to the sides */
+  }
+  
+  .header {
+    background-color: #fff; /* Set background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow */
+    padding: 20px 0; /* Add padding */
+  }
+  
+  .logo {
+    font-size: 24px; /* Set font size */
+  }
+  
+  .navbar {
+    display: flex;
+  }
+  
+  .nav-link {
+    margin-right: 20px; /* Add space between links */
+    color: #333; /* Set link color */
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  .fixed-top {
+    position: fixed; /* Fix header at the top */
+    width: 100%; /* Full width */
+    top: 0; /* Position at the top */
+    z-index: 1000; /* Set higher z-index to make sure it's above other elements */
+  }
+  
+  .dev {
+    padding: 100px 0; /* Add padding to the top and bottom */
+    text-align: center; /* Center text */
+  }
+  
+  .dev-title {
+    font-size: 36px; /* Set font size */
+    font-weight: bold; /* Set font weight */
+  }
+  
+  .dev-subtitle {
+    font-size: 18px; /* Set font size */
+  }
+  
+  .typed {
+    font-weight: bold; /* Set font weight */
+    color: #007bff; /* Set text color */
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    display: flex; /* Use flexbox */
+  }
+  
+  .navbar li {
+    margin-right: 20px; /* Add space between menu items */
+  }
+  
+  .navbar a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Set link color */
+    font-family: Arial, sans-serif; /* Set font family */
+    font-weight: bold; /* Set font weight */
+    font-size: 16px; /* Set font size */
+  }
+  
+  .navbar a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
