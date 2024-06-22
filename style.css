@@ -97,10 +97,7 @@
   .resume_pdf {
     width: 100%;
     aspect-ratio: 4 / 3;
-}
-
-.resume_pdf {
     height: 100%;
     margin: 0;
     padding: 0;
-}
+  }
