@@ -9,9 +9,21 @@
   <meta content="" name="keywords">
 
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-  <script src="Type.js"></script>
   <link rel="stylesheet" href="style.css">
 
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Define options for the Typed.js plugin
+      var options = {
+          strings: ['Software Engineer', 'Programmer', 'Competitor', 'Husband', 'Runner'], // Array of strings to display
+          typeSpeed: 85, // Typing speed in milliseconds
+          loop: true // Whether to loop through the strings indefinitely
+      };
+
+      // Initialize Typed.js with the provided options
+      var typed = new Typed('.typed', options); 
+    });
+  </script>
 </head>
 <body>
   <header id="header" class="fixed-top">

@@ -7,5 +7,5 @@ document.addEventListener("DOMContentLoaded", function() {
   };
 
   // Initialize Typed.js with the provided options
-  var typed = new Typed('.typed', options);
+  var typed = new typed('.typed', options);
 });
