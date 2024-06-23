@@ -5,12 +5,16 @@
   box-sizing: border-box;
 }
 
+/* Enable smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Global styles */
 body {
   font-family: Arial, sans-serif;
   background-color: #f8f9fa; /* Set background color */
   color: #333; /* Set text color */
-  scroll-behavior: smooth; /* Enable smooth scrolling */
 }
 
 .container {
