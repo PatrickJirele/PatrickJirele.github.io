@@ -13,14 +13,12 @@
 
   <script>
     document.addEventListener("DOMContentLoaded", function() {
-      // Define options for the Typed.js plugin
       var options = {
-          strings: ['Software Engineer', 'Programmer', 'Competitor', 'Husband', 'Runner'], // Array of strings to display
-          typeSpeed: 85, // Typing speed in milliseconds
-          loop: true // Whether to loop through the strings indefinitely
+          strings: ['Software Engineer', 'Programmer', 'Competitor', 'Husband', 'Runner'], 
+          typeSpeed: 85,
+          loop: true 
       };
 
-      // Initialize Typed.js with the provided options
       var typed = new Typed('.typed', options); 
     });
   </script>
@@ -28,7 +26,6 @@
 <body>
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center justify-content-between">
-      <h1 class="logo"><a href="index.html">Patrick Jirele</a></h1>
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#dev">Home</a></li>
@@ -55,19 +52,22 @@
     </div>
   </section>
 
+  <!-- Add other sections as needed -->
+  <section id="about" class="section">
+    <div class="container">
+      <h1 class="section-title">About</h1>
+      <p>
+        Your about section content goes here...
+        Hello! My name is Patrick Jirele and I graduated Western Colorado University in May 2024. I . 
+      </p>
+    </div>
+  </section>
+
   <section id="resume" class="section">
     <div class="container">
       <h1 class="section-title">Resume</h1>
       <embed class="resume_pdf" 
             src="https://drive.google.com/file/d/10zgLuI8O58ezpfjv8fU0mLQ9x4xtp-82/preview">
-    </div>
-  </section>
-
-  <!-- Add other sections as needed -->
-  <section id="about" class="section">
-    <div class="container">
-      <h1 class="section-title">About</h1>
-      <p>Your about section content goes here...</p>
     </div>
   </section>
 
