@@ -189,3 +189,138 @@ table h3:hover {
 table p2 {
   padding-left: 10%;
 }
+
+body, h1, h2, h3, p {
+  font-family: 'Roboto', sans-serif; /* Use Google Fonts for a modern look */
+}
+
+/* Section styles */
+.section {
+  padding: 60px 0;
+  background-color: #2c2c2c;
+  color: #f8f9fa;
+}
+
+/* Container styling */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-size: medium;
+}
+
+/* Section title styling */
+.section-title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00aaff; /* Blue color for the section title */
+}
+
+/* Project title styling */
+.project-titles {
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 20px;
+}
+
+table td {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Project heading */
+table h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #00aaff;
+}
+
+/* Project about styling */
+.project-about {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #00aaff;
+}
+
+/* Project description styling */
+.project-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+  line-height: 1.6;
+}
+
+/* Project link styling */
+.project-link {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.project-link a {
+  color: #00aaff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.project-link a:hover {
+  color: #66ccff;
+}
+
+body, h1, h2, h3, p {
+  font-family: 'Roboto', sans-serif; /* Use Google Fonts for a modern look */
+}
+
+/* Section styles */
+.section {
+  padding: 60px 0;
+  background-color: #2c2c2c;
+  color: #f8f9fa;
+}
+
+/* Container styling */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-size: medium;
+}
+
+/* Section title styling */
+.section-title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00aaff; /* Blue color for the section title */
+}
+
+/* About content styling */
+.about-content {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 20px;
+}
+
+.about-content p {
+  margin-bottom: 20px; /* Space between paragraphs */
+}
+
+/* Link styling */
+.about-content a {
+  color: #00aaff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.about-content a:hover {
+  color: #66ccff;
+}
